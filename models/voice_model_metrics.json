@@ -1,0 +1,19 @@
+{
+  "cv_scheme": "leave-one-recording-out (augmented copies held out with their source)",
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.4167,
+      "f1_macro": 0.4152,
+      "log_loss": 1.1355
+    },
+    "random_forest": {
+      "accuracy": 0.375,
+      "f1_macro": 0.3642,
+      "log_loss": 1.3047
+    }
+  },
+  "best_model": "logistic_regression",
+  "prob_threshold": 0.404,
+  "dist_threshold": 2.444,
+  "genuine_accept_rate_cv": 0.3542
+}
